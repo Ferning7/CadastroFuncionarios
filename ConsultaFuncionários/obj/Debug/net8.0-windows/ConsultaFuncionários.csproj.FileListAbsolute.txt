@@ -1,0 +1,7 @@
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.AssemblyReference.cache
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.Form1.resources
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.GenerateResource.cache
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfoInputs.cache
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfo.cs
+C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.CoreCompileInputs.cache

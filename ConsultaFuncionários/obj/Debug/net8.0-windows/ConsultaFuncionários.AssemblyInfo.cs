@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaFuncionários")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda3b10ae36732f43ba3cc0d70fd14a108b584fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultaFuncionários")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultaFuncionários")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
