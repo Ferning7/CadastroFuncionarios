@@ -42,14 +42,14 @@
             lblCargo = new Label();
             lblCPF = new Label();
             lblSetor = new Label();
-            button1 = new Button();
+            btnGravar = new Button();
             gpBoxSexo = new GroupBox();
+            radioFeminino = new RadioButton();
             txtID = new TextBox();
-            button2 = new Button();
+            btnEditar = new Button();
             button3 = new Button();
             txtNome = new TextBox();
-            textBox1 = new TextBox();
-            radioFeminino = new RadioButton();
+            txtSalario = new TextBox();
             textBox2 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
             gpBoxSexo.SuspendLayout();
@@ -69,7 +69,7 @@
             lblNomeFuncionario.AutoSize = true;
             lblNomeFuncionario.Location = new Point(37, 20);
             lblNomeFuncionario.Name = "lblNomeFuncionario";
-            lblNomeFuncionario.Size = new Size(138, 20);
+            lblNomeFuncionario.Size = new Size(160, 20);
             lblNomeFuncionario.TabIndex = 1;
             lblNomeFuncionario.Text = "Nome do Funcionário";
             // 
@@ -85,6 +85,7 @@
             // 
             maskedTextBox1.Location = new Point(568, 333);
             maskedTextBox1.Margin = new Padding(3, 4, 3, 4);
+            maskedTextBox1.Mask = "000,000,000-00";
             maskedTextBox1.Name = "maskedTextBox1";
             maskedTextBox1.Size = new Size(182, 26);
             maskedTextBox1.TabIndex = 3;
@@ -92,7 +93,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(568, 419);
+            comboBox1.Location = new Point(568, 424);
             comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(138, 28);
@@ -104,7 +105,7 @@
             radioMasculino.Location = new Point(7, 29);
             radioMasculino.Margin = new Padding(3, 4, 3, 4);
             radioMasculino.Name = "radioMasculino";
-            radioMasculino.Size = new Size(87, 24);
+            radioMasculino.Size = new Size(98, 24);
             radioMasculino.TabIndex = 5;
             radioMasculino.TabStop = true;
             radioMasculino.Text = "Masculino";
@@ -123,7 +124,7 @@
             lblID.AutoSize = true;
             lblID.Location = new Point(60, 333);
             lblID.Name = "lblID";
-            lblID.Size = new Size(25, 20);
+            lblID.Size = new Size(30, 20);
             lblID.TabIndex = 7;
             lblID.Text = "ID:";
             // 
@@ -132,25 +133,25 @@
             lblNome.AutoSize = true;
             lblNome.Location = new Point(36, 379);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(49, 20);
+            lblNome.Size = new Size(55, 20);
             lblNome.TabIndex = 8;
             lblNome.Text = "Nome:";
             // 
             // lblData
             // 
             lblData.AutoSize = true;
-            lblData.Location = new Point(46, 424);
+            lblData.Location = new Point(40, 424);
             lblData.Name = "lblData";
-            lblData.Size = new Size(39, 20);
+            lblData.Size = new Size(48, 20);
             lblData.TabIndex = 9;
             lblData.Text = "Data:";
             // 
             // lblSalario
             // 
             lblSalario.AutoSize = true;
-            lblSalario.Location = new Point(34, 463);
+            lblSalario.Location = new Point(29, 463);
             lblSalario.Name = "lblSalario";
-            lblSalario.Size = new Size(54, 20);
+            lblSalario.Size = new Size(62, 20);
             lblSalario.TabIndex = 10;
             lblSalario.Text = "Salário:";
             // 
@@ -159,7 +160,7 @@
             lblCargo.AutoSize = true;
             lblCargo.Location = new Point(508, 382);
             lblCargo.Name = "lblCargo";
-            lblCargo.Size = new Size(49, 20);
+            lblCargo.Size = new Size(56, 20);
             lblCargo.TabIndex = 11;
             lblCargo.Text = "Cargo:";
             // 
@@ -168,28 +169,29 @@
             lblCPF.AutoSize = true;
             lblCPF.Location = new Point(518, 337);
             lblCPF.Name = "lblCPF";
-            lblCPF.Size = new Size(39, 20);
+            lblCPF.Size = new Size(44, 20);
             lblCPF.TabIndex = 12;
             lblCPF.Text = "CPF:";
             // 
             // lblSetor
             // 
             lblSetor.AutoSize = true;
-            lblSetor.Location = new Point(518, 419);
+            lblSetor.Location = new Point(513, 427);
             lblSetor.Name = "lblSetor";
-            lblSetor.Size = new Size(45, 20);
+            lblSetor.Size = new Size(52, 20);
             lblSetor.TabIndex = 13;
             lblSetor.Text = "Setor:";
             // 
-            // button1
+            // btnGravar
             // 
-            button1.Location = new Point(383, 527);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 31);
-            button1.TabIndex = 14;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnGravar.Location = new Point(333, 553);
+            btnGravar.Margin = new Padding(3, 4, 3, 4);
+            btnGravar.Name = "btnGravar";
+            btnGravar.Size = new Size(86, 31);
+            btnGravar.TabIndex = 14;
+            btnGravar.Text = "Gravar";
+            btnGravar.UseVisualStyleBackColor = true;
+            btnGravar.Click += btnGravar_Click;
             // 
             // gpBoxSexo
             // 
@@ -204,6 +206,18 @@
             gpBoxSexo.TabStop = false;
             gpBoxSexo.Text = "Sexo:";
             // 
+            // radioFeminino
+            // 
+            radioFeminino.AutoSize = true;
+            radioFeminino.Location = new Point(116, 29);
+            radioFeminino.Margin = new Padding(3, 4, 3, 4);
+            radioFeminino.Name = "radioFeminino";
+            radioFeminino.Size = new Size(92, 24);
+            radioFeminino.TabIndex = 6;
+            radioFeminino.TabStop = true;
+            radioFeminino.Text = "Feminino";
+            radioFeminino.UseVisualStyleBackColor = true;
+            // 
             // txtID
             // 
             txtID.Location = new Point(89, 333);
@@ -212,19 +226,20 @@
             txtID.Size = new Size(65, 26);
             txtID.TabIndex = 16;
             // 
-            // button2
+            // btnEditar
             // 
-            button2.Location = new Point(475, 527);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(86, 31);
-            button2.TabIndex = 17;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(447, 553);
+            btnEditar.Margin = new Padding(3, 4, 3, 4);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(86, 31);
+            btnEditar.TabIndex = 17;
+            btnEditar.Text = "button2";
+            btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(581, 527);
+            button3.Location = new Point(555, 553);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(86, 31);
@@ -240,25 +255,13 @@
             txtNome.Size = new Size(319, 26);
             txtNome.TabIndex = 19;
             // 
-            // textBox1
+            // txtSalario
             // 
-            textBox1.Location = new Point(90, 460);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(228, 26);
-            textBox1.TabIndex = 20;
-            // 
-            // radioFeminino
-            // 
-            radioFeminino.AutoSize = true;
-            radioFeminino.Location = new Point(116, 29);
-            radioFeminino.Margin = new Padding(3, 4, 3, 4);
-            radioFeminino.Name = "radioFeminino";
-            radioFeminino.Size = new Size(82, 24);
-            radioFeminino.TabIndex = 6;
-            radioFeminino.TabStop = true;
-            radioFeminino.Text = "Feminino";
-            radioFeminino.UseVisualStyleBackColor = true;
+            txtSalario.Location = new Point(90, 460);
+            txtSalario.Margin = new Padding(3, 4, 3, 4);
+            txtSalario.Name = "txtSalario";
+            txtSalario.Size = new Size(228, 26);
+            txtSalario.TabIndex = 20;
             // 
             // textBox2
             // 
@@ -270,17 +273,17 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(876, 631);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtSalario);
             Controls.Add(txtNome);
             Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnEditar);
             Controls.Add(txtID);
             Controls.Add(gpBoxSexo);
-            Controls.Add(button1);
+            Controls.Add(btnGravar);
             Controls.Add(lblSetor);
             Controls.Add(lblCPF);
             Controls.Add(lblCargo);
@@ -294,7 +297,7 @@
             Controls.Add(txtNomeFuncionario);
             Controls.Add(lblNomeFuncionario);
             Controls.Add(DataGrid);
-            Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
@@ -326,13 +329,13 @@
         private Label lblCargo;
         private Label lblCPF;
         private Label lblSetor;
-        private Button button1;
+        private Button btnGravar;
         private GroupBox gpBoxSexo;
         private TextBox txtID;
-        private Button button2;
+        private Button btnEditar;
         private Button button3;
         private TextBox txtNome;
-        private TextBox textBox1;
+        private TextBox txtSalario;
         private RadioButton radioFeminino;
         private TextBox textBox2;
     }

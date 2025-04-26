@@ -108,7 +108,7 @@ namespace ConsultaFuncionários
 
         }
 
-        public bool editarFuncionario()
+       /* public bool editarFuncionario()
         {
             try
             {
@@ -133,6 +133,6 @@ namespace ConsultaFuncionários
 
                 
             }
-        }
+        } */
     }
 }

@@ -11,5 +11,18 @@ namespace ConsultaFuncionários
         {
 
         }
+
+        private void btnGravar_Click(object sender, EventArgs e)
+        {
+            MetodosFuncionarios metodos = new MetodosFuncionarios();
+            if(!txtNome.Text.Equals("") && txtSalario.Text.Equals(""))
+
+            metodos.GravarFuncionario();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

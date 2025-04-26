@@ -5,3 +5,37 @@ C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.
 C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfoInputs.cache
 C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfo.cs
 C:\Users\Aluno_Tarde\source\repos\lista 16\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.Form1.resources
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.GenerateResource.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ConsultaFuncionários.exe
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ConsultaFuncionários.deps.json
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ConsultaFuncionários.runtimeconfig.json
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ConsultaFuncionários.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ConsultaFuncionários.pdb
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\Consulta.A6D8820A.Up2Date
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\refint\ConsultaFuncionários.dll
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.pdb
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ConsultaFuncionários.genruntimeconfig.cache
+C:\Users\Matheus\source\repos\CadastroFuncionários\ConsultaFuncionários\obj\Debug\net8.0-windows\ref\ConsultaFuncionários.dll
